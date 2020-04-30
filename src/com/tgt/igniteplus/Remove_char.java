@@ -8,7 +8,7 @@ public class Remove_char {
         System.out.println("Enter the string :");
         String str = sc.nextLine();
         str = str.toLowerCase();
-        str = str.replaceAll("t", "");
+        str = str.replaceAll("t", "");       //used replaceAll
         System.out.println("The modified String is : " + str);
     }
 }
